@@ -14,9 +14,10 @@ document.addEventListener("DOMContentLoaded", () => {
     function addTask(task) {
       alert(task);
       this.tasks << task;
+      var h = document.getElementById("myH2");
+      taskList.insertAdjacentText("afterend", "My inserted text");
       
-      
-      this.taskNode.appendChild(`<li>${task}</li>`)
+      this.taskNode.appendChild(`<li>${task}</li>`);
       // return `<li>${task}</li>`;
     }
     addTask(newTask.value);
