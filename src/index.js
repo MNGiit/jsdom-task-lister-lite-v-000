@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
     
     function addTask(task) {
       // alert(task);
-      this.tasks.push(task);
+      tasks << task;
       taskString(task);
     }
     function taskString(task) {
