@@ -9,6 +9,6 @@ document.addEventListener("DOMContentLoaded", () => {
     function addTask(task) {
       alert(task);
     }
-    addTask(newTask);
+    addTask(newTask.value);
   });
 });
