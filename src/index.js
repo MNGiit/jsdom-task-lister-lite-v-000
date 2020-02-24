@@ -3,6 +3,8 @@ document.addEventListener("DOMContentLoaded", () => {
   const taskForm = document.getElementById("create-task-form");
   const newTask = document.getElementById("new-task-description");
   const taskList = document.getElementById("tasks");
+  const taskNode = document.createTextNode(taskList);
+  
   let tasks = [];
   
   taskForm.addEventListener("submit", (e) => {
@@ -12,7 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
     function addTask(task) {
       alert(task);
       this.tasks << task;
-      var textnode = document.createTextNode("Water"); 
+      
       
       taskList.appendChild(`<li>${task}</li>`)
       // return `<li>${task}</li>`;
