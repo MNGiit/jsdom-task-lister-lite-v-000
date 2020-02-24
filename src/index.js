@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
     function addTask(task) {
       // alert(task);
       this.tasks << task;
-      taskString(task);
+      return `<li>${task}</li>`;
     }
     function taskString(task) {
       return `<li>${task}</li>`;
