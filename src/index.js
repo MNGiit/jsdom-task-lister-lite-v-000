@@ -13,12 +13,6 @@ document.addEventListener("DOMContentLoaded", () => {
       this.tasks << task;
       return `<li>${task}</li>`;
     }
-    function taskString(task) {
-      return `<li>${task}</li>`;
-    }
-    addTask(newTask.value);
-    
-    
   });
 });
 
