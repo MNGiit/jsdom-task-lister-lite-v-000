@@ -5,17 +5,14 @@ document.addEventListener("DOMContentLoaded", () => {
   const taskList = document.getElementById("tasks");
   // const taskNode = document.createTextNode(taskList);
   
-
-  
   taskForm.addEventListener("submit", (e) => {
     e.preventDefault();
     // alert("button was clicked");
     
     function addTask(task) {
       // alert(task);
-      taskList.insertAdjacentHTML("afterend", `<li>${task}</li>`);
-      
       // this.taskNode.appendChild(`<li>${task}</li>`);
+      taskList.insertAdjacentHTML("afterend", `<li>${task}</li>`);
     }
     addTask(newTask.value);
   });
