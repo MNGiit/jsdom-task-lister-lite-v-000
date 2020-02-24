@@ -4,10 +4,5 @@ document.addEventListener("DOMContentLoaded", () => {
   taskForm.addEventListener("submit", (e) => {
     e.preventDefault();
     // alert("button was clicked");
-    createNewTask(task) {
-      alert(task);
-    }
-    
-    
-    
   });
+});
