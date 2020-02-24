@@ -8,6 +8,6 @@ document.addEventListener("DOMContentLoaded", () => {
     function addTask(task) {
       alert(task);
     }
-    
+    e.addTask(task);
   });
 });
