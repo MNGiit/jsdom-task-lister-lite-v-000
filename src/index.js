@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // alert("button was clicked");
     
     function addTask(task) {
-      // alert(task);
+      alert(task);
       this.tasks << task;
       return `<li>${task}</li>`;
     }
