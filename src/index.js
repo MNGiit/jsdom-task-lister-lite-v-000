@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
     function addTask(task) {
       alert(task);
       this.tasks << task;
-      taskList.insertAdjacentText(`<li>${task}</li>`);
+      taskList.insertAdjacentText("afterend", `<li>${task}</li>`);
       
       // this.taskNode.appendChild(`<li>${task}</li>`);
       // return `<li>${task}</li>`;
