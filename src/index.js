@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
   // your code here
-  document.getElementById("create-task-form").addEventListener("click", function()
-  );
+  const taskForm = document.getElementById("create-task-form");
+  console.log(taskForm);
   
   
 });
