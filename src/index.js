@@ -13,6 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
       this.tasks << task;
       return `<li>${task}</li>`;
     }
+    addTask(task.value);
   });
 });
 
