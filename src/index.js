@@ -1,6 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
   // your code here
-  document.getElementById("myBtn").addEventListener("click", myFunction);
+  document.getElementById("create-task-form").addEventListener("click", function()
+  );
   
   
 });
