@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const taskForm = document.getElementById("create-task-form");
   const newTask = document.getElementById("new-task-description");
   const taskList = document.getElementById("tasks");
-  const taskNode = document.createTextNode(taskList);
+  // const taskNode = document.createTextNode(taskList);
   
   let tasks = [];
   
