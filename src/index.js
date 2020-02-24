@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", () => {
       this.tasks << task;
       
       
-      taskList.appendChild(`<li>${task}</li>`)
+      taskNode.appendChild(`<li>${task}</li>`)
       // return `<li>${task}</li>`;
     }
     addTask(newTask.value);
