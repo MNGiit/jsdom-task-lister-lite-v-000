@@ -13,14 +13,8 @@ document.addEventListener("DOMContentLoaded", () => {
       alert(task);
       this.tasks << task;
       // taskList.appendChild(`<li>${task}</li>`)
-      return `<li>${task}</li>`;
+      // return `<li>${task}</li>`;
     }
     addTask(newTask.value);
   });
 });
-
-
-  var ul = document.getElementById("list");
-  var li = document.createElement("li");
-  li.appendChild(document.createTextNode("Four"));
-  ul.appendChild(li);
