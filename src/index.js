@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // your code here
   const taskForm = document.getElementById("create-task-form");
   const newTask = document.getElementById("new-task-description");
-  const taskList = document.getElementById();
+  const taskList = document.getElementById("tasks");
   let tasks = [];
   
   taskForm.addEventListener("submit", (e) => {
@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
     function addTask(task) {
       alert(task);
       this.tasks << task;
-      // taskList.appendChild(`<li>${task}</li>`)
+      taskList.appendChild(`<li>${task}</li>`)
       // return `<li>${task}</li>`;
     }
     addTask(newTask.value);
