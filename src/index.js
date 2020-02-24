@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const taskForm = document.getElementById("create-task-form");
   taskForm.addEventListener("submit", (e) => {
     e.preventDefault();
-    console.log("button was clicked");
+    alert("button was clicked");
   });
   
   
